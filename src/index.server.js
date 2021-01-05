@@ -1,6 +1,6 @@
 import React from 'react';
-import ReactDomServer from 'react-dom/server';
+import ReactDOMServer from 'react-dom/server';
 
-const html = ReactDomServer.renderToString(<div>Hello SSR!</div>);
+const html = ReactDOMServer.renderToString(<div>Hello SSR!</div>);
 
 console.log(html);
